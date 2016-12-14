@@ -1,0 +1,126 @@
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, dl, dd, ul, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+
+em {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+input, textarea {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+body {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    overflow: hidden;
+}
+
+/* end reset */
+
+/*public begin*/
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.left:after, .right:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/*public end*/
+
+.welcome {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: block;
+    z-index: 10000;
+}
+
+.welcome img {
+    width: 100%;
+}
+
+.progress {
+    width: 90%;
+    top: 70%;
+    left: 5%;
+    position: absolute;
+}
+
+/*news begin*/
+.news .menu a{
+    padding-left:0;
+    padding-right:0;
+}
+
+.newsbanner .swiper-slide img {
+    width: 100%;
+}
+.newheader {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+
+}
+.newrow {
+    margin-top:5px;
+    margin-top:5px;
+}
+.newimg {
+    padding:0 4px;!important;
+}
+.newcon {
+    padding-left:0;!important;
+}
+.newdes {
+    width: 100%;
+    height: 52px;
+    overflow: hidden;
+}
+/*news end*/
+/*newsdetail begin*/
+.newsdetail {
+    overflow: auto;
+}
+.newdett {
+    margin:16px 0 10px;
+}
+.newdetinfo {
+    margin-bottom:10px;padding-bottom:10px;border-bottom:1px solid #f9f9f9;
+}
+.newdetdes {
+    padding:10px 0;
+}
+/*newsdetail end*/
